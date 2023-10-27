@@ -38,10 +38,10 @@ nav {
     justify-content: space-around;
     
 }
-nav .logo {
+/* nav .logo {
     width: 250px;
 
-}
+} */
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -50,11 +50,9 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-nav a:hover{
-    text-decoration: underline;
-    color: purple;
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d,#fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #one {
     margin-top: 10%;
@@ -66,11 +64,11 @@ nav a:hover{
     font-family: Nosifer;
     /* -webkit-text-stroke: 1px #fff; */
     color: transparent;
-    background-image: linear-gradient(#DC2424,#4A569D);
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d,#fcb045);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -1100px 0;
-    animation: backcolor 4s linear infinite alternate;
+    background-position: -1100px 0px;
+    animation: backcolor 3s linear infinite alternate;
     user-select: none;
 }
 @keyframes backcolor {
@@ -163,7 +161,7 @@ section{
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #fff;
+    background: linear-gradient(to bottom, #833ab4, #fd1d1d,#fcb045);
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -176,7 +174,7 @@ section{
         height: 0;
     }
     100%{
-        height: 100%;
+        height: 85%;
     }
 }
 .text p{
@@ -226,7 +224,7 @@ section{
     left: -15px;
 }
 
-@media screen and (max-width:600px)  {
+/* @media screen and (max-width:600px)  {
     .time{
         margin: 50px auto;
     }
@@ -256,7 +254,7 @@ section{
         left: -15px;
 
     } 
-}
+} */
 mark{
     background-image: linear-gradient(to right, #833ab4, #fd1d1d,#fcb045);
     -webkit-background-clip: text;
